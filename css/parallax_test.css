@@ -1,0 +1,46 @@
+/* Parallax Test */
+.main-content {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.content-item {
+  background-color: white;
+}
+.parallax-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  perspective: 1px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.group1 {
+  height: 100vh;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.group2 {
+  height: 100vh;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.row {
+  padding-bottom: 10rem;
+}
+
+.background {
+  transform: translateZ(-1px) scale(2);
+  background: white;
+  opacity: 0.8;
+}
+
+.foreground {
+  background: white;
+  opacity: 0.8;
+}
