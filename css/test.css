@@ -1,0 +1,33 @@
+#temples-hero {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+
+#temples-hero-overlay {
+  margin-left: auto;
+  margin-right: auto;
+  left: 15%;
+  position: absolute;
+  max-width: 70%;
+  height: auto;
+}
+
+@media (min-width: 450px){
+  #temples-hero-overlay {
+    left: 10%;
+    max-width: 80%;
+  }
+  #hero-text {
+
+  }
+}
+
+#hero-text {
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
