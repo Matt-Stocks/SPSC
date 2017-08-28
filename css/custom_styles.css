@@ -103,7 +103,7 @@ body {
   max-height: 2rem;
 }
 
-/* Flexbox Header */
+/* hero banner */
 
 .hero {
   margin-top: 6.5rem;
@@ -130,23 +130,32 @@ body {
   line-height: 1.4em;
 }
 
-/* footer */
-
-@media (min-width: 700px){
-    #textFootleft {
-      align-self: center;
-      position: absolute;
-      left: 0;
-      padding-left: 10%;
-    }
-
-    #textFootright {
-      align-self: center;
-      position: absolute;
-      right: 0;
-      padding-right: 10%;
-    }
+#temples-hero {
+  position: relative;
+  max-width: 100%;
+  height: auto;
 }
+
+#temples-hero-overlay {
+  margin-left: auto;
+  margin-right: auto;
+  left: 15%;
+  position: absolute;
+  max-width: 70%;
+  height: auto;
+}
+
+#hero-text {
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 5vw;
+}
+
+/* footer */
 
 #textFootright {
   align-self: center;
@@ -179,4 +188,27 @@ body {
   justify-content: center;
   max-height: 50rem;
   padding-bottom: 3.5rem;
+  padding-top: 3.5rem;
+}
+
+@media (min-width: 700px){
+  #temples-hero-overlay {
+    left: 10%;
+    max-width: 80%;
+  }
+  #hero-text {
+    font-size: 3.5rem;
+  }
+  #textFootleft {
+    align-self: center;
+    position: absolute;
+    left: 0;
+    padding-left: 10%;
+  }
+  #textFootright {
+    align-self: center;
+    position: absolute;
+    right: 0;
+    padding-right: 10%;
+  }
 }

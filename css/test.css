@@ -1,33 +1,26 @@
-#temples-hero {
-  position: relative;
+.content-img {
   max-width: 100%;
-  height: auto;
 }
 
-#temples-hero-overlay {
-  margin-left: auto;
-  margin-right: auto;
-  left: 15%;
-  position: absolute;
-  max-width: 70%;
-  height: auto;
-}
-
-@media (min-width: 450px){
-  #temples-hero-overlay {
-    left: 10%;
-    max-width: 80%;
+@media (min-width: 550px) {
+  .div-align-left {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
   }
-  #hero-text {
 
+  .left-overlay {
+    position: absolute;
+    margin-left: -15%;
   }
 }
 
-#hero-text {
-  overflow: hidden;
-  white-space: nowrap;
-  position: absolute;
-  text-align: center;
-  padding: 0;
-  margin: 0;
+ @media (min-width: 1000px){
+
+  .left-overlay {
+      position: absolute;
+      margin-left: -10%;
+  }
 }
