@@ -12,6 +12,18 @@
 }
 
 @media (min-width: 550px) {
+  .none-clearing {
+    margin-top: -3.5rem;
+  }
+
+  .double-space-clearing {
+    margin-top: 7rem;
+  }
+
+  .clearing {
+    margin-top: 3.5rem;
+  }
+
   .div-align-center {
     display: flex;
     flex-direction: column;
@@ -27,27 +39,47 @@
     width: 100%;
     height: auto;
   }
-
-  .left-overlay {
+  .center-overlay {
     position: absolute;
     align-self: center;
-    margin-left: -20%;
+  }
+  .right-overlay {
+    position: absolute;
+    align-self: flex-end;
+  }
+  .left-overlay {
+    position: absolute;
+    align-self: flex-start;
+    margin-left: -10%;
   }
   .left-overlay-top {
     position: absolute;
     align-self: flex-start;
     margin-top: -5rem;
   }
-  /* could be non clearing row */
-  #tumblehome-row {
-    margin-top: -3.5rem;
+  #pandora-quote {
+    display: flex;
+    align-items: center;
+  }
+  .right-align {
+    text-align: right;
+  }
+  .center-align {
+    text-align: center;
+  }
+  #dune-bowl-title {
+    margin-top: -12.5%;
+  }
+  #spray-series-title {
+    margin-top: -10%;
+  }
+  #five-element-title {
+    margin-left: 25%;
   }
 }
 
  @media (min-width: 1000px){
-
-  .left-overlay {
-      position: absolute;
-      /*margin-left: -10%;*/
-  }
+   #five-element-title {
+     margin-left: 15%;
+   }
 }
