@@ -154,6 +154,41 @@ body {
   font-size: 5vw;
 }
 
+/* main content alignment */
+
+.content-img {
+  max-width: 100%;
+}
+
+.quote {
+  font-style: italic;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+.flex-img {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+#credit {
+  align-self: flex-end;
+  text-align: right;
+}
+
+#dune-bowl-row {
+  margin: 0 -20px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+#dune-bowl-title {
+  position: absolute;
+  align-self: flex-start;
+  margin-top: 8%;
+}
+
 /* footer */
 
 #textFootright {
@@ -191,6 +226,146 @@ body {
   padding-top: 3.5rem;
 }
 
+.dual-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#strata-plates-img {
+  width: 55%;
+  order: 2;
+}
+
+#strata-plates-title {
+  order: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tumblehome-variations {
+  padding-top: 3.5rem;
+}
+
+#tumblehome-variations-img {
+  max-width: 80%;
+}
+
+.spaced {
+  padding-top: 3.5rem;
+}
+
+.right-align {
+  text-align: right;
+}
+.center-align {
+  text-align: center;
+}
+
+@media (min-width: 550px){
+  /* homepage content alignment for desktop */
+
+  .none-clearing {
+    margin-top: -7rem;
+  }
+
+  .double-space-clearing {
+    margin-top: 3.5rem;
+  }
+
+  .clearing {
+  }
+
+  .div-align-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+  .div-align-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+  }
+  .center-overlay {
+    position: absolute;
+    align-self: center;
+  }
+  .right-overlay {
+    position: absolute;
+    align-self: flex-end;
+  }
+  .left-overlay {
+    position: absolute;
+    align-self: flex-start;
+    margin-left: -10%;
+  }
+  .left-overlay-top {
+    position: absolute;
+    align-self: flex-start;
+    margin-top: -5rem;
+  }
+  #pandora-quote {
+    display: flex;
+    align-items: center;
+  }
+  .centralised-row {
+    display: flex;
+    justify-content: center;
+  }
+  #dune-bowl-row {
+    margin: 0;
+    width: 82.6666666667%;
+  }
+  #dune-bowl-title {
+    margin-top: -12.5%;
+    align-self: center;
+  }
+  #spray-series-title {
+    margin-top: -10%;
+  }
+  #five-element-title {
+    margin-left: 25%;
+  }
+  .flex-end-row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  #five-element-design-title-div {
+    order: 1;
+  }
+  #five-element-design-image-div {
+    order: 2;
+  }
+  #five-element-design-image{
+    padding-right: 3.5rem;
+  }
+  #five-element-design-title {
+    white-space: nowrap;
+    margin-bottom: 0;
+    padding-right: 1rem;
+    text-align: right;
+  }
+  #sea-of-greens-title {
+    margin-top: -10%;
+  }
+
+
+  #strata-plates-img {
+    width: 100%;
+  }
+  #strata-plates-title {
+    margin-left: -10%;
+  }
+  #tumblehome-variations-img {
+    max-width: 100%;
+  }
+}
 @media (min-width: 700px){
   #temples-hero-overlay {
     left: 10%;
@@ -210,5 +385,11 @@ body {
     position: absolute;
     right: 0;
     padding-right: 5%;
+  }
+}
+
+@media (min-width: 1000px){
+  #five-element-title {
+    margin-left: 15%;
   }
 }
