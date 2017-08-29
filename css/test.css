@@ -102,6 +102,9 @@
     padding-right: 1rem;
     text-align: right;
   }
+  #sea-of-greens-title {
+    margin-top: -10%;
+  }
 }
 
  @media (min-width: 1000px){
