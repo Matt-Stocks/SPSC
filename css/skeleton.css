@@ -162,9 +162,13 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: rgba(0,0,0,1);
+  text-decoration: none;
+}
 a:hover {
-  color: #0FA0CE; }
+  color: rgba(0,0,0,0.7);
+  text-decoration: underline;
+}
 
 
 /* Buttons
