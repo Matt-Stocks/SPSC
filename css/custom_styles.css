@@ -67,6 +67,15 @@ body {
   text-transform: uppercase;
 }
 
+.navbar-link {
+  font-size: 3rem;
+}
+
+@media (min-width:550px) {
+  .navbar-link{
+    font-size: 5rem;
+  }
+}
 #mainNav {
   display: flex;
   flex-direction: column;
